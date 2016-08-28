@@ -1,21 +1,21 @@
 {
-  "name": "hain-plugin-google",
-  "version": "1.0.3",
-  "description": "A simple google search plugin for Hain",
+  "name": "hain-plugin-weblio",
+  "version": "1.0.0",
+  "description": "A simple weblio search plugin for Hain",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leonardosnt/hain-plugin-google.git"
+    "url": "git+https://github.com/bibineko/hain-plugin-weblio.git"
   },
   "keywords": [
     "hain0"
   ],
-  "author": "Leonardosnt",
+  "author": "bibineko",
   "license": "MIT",
   "hain": {
-    "prefix": "/g ",
-    "usage": "/g something",
-    "icon": "#fa fa-google",
-    "redirect": "/g "
+    "prefix": "/d ",
+    "usage": "/d something",
+    "icon": "#fa fa-book",
+    "redirect": "/d "
   }
 }
