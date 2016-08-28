@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2016  Leonardosnt
+ *  Copyright (C) 2016  bibienko
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -14,6 +14,7 @@
  *  You should have received a copy of the GNU General Public License along
  *  with this program; if not, write to the Free Software Foundation, Inc.,
  *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
 */
 
 'use strict'
@@ -32,7 +33,7 @@ module.exports = (pluginContext) => {
       id: query_trim,
       payload: 'open',
       title: query_trim,
-      desc: 'Search on Google.com'
+      desc: 'Search on ejje.weblio.jp'
     })
   }
 
@@ -40,7 +41,7 @@ module.exports = (pluginContext) => {
     if (payload !== 'open') {
       return
     }
-    shell.openExternal(`http://www.google.com/search?q=${id}`)
+    shell.openExternal(`http://ejje.weblio.jp/content/${id}`)
   }
 
   return { search, execute }
