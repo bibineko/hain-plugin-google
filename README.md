@@ -1,15 +1,15 @@
-# hain-plugin-google
+# hain-plugin-weblio
 
-A simple [Hain](https://github.com/appetizermonster/hain) plugin for searching on Google.
+A simple [Hain](https://github.com/appetizermonster/hain) plugin for searching on Weblio.
 
 # Install
 Open Hain and type
 
 ```
-/hpm install hain-plugin-google
+/hpm install hain-plugin-weblio
 ```
 
 # Usage
 ```
-/g something
+/d something
 ```
